@@ -1,0 +1,27 @@
+.snap-users-container1 {
+  display: contents;
+}
+ 
+.snap-users-thq-snap-users-btn-icon-elm {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.snap-users-thq-snap-users-chevron-elm {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.snap-users-container2 {
+  display: none;
+}
+ 
+.snap-users-container3 {
+  display: contents;
+}
