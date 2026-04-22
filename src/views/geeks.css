@@ -1,0 +1,58 @@
+.geeks-container1 {
+  width: 100%;
+  min-height: 100vh;
+}
+ 
+.geeks-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+ 
+.geeks-thq-header-lock-icon-elm {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+ 
+.geeks-thq-images-side-by-side-elm {
+  gap: 20px;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.geeks-thq-pasted-image-elm1 {
+  width: 327px;
+  height: 247px;
+}
+ 
+.geeks-thq-pasted-image-elm2 {
+  width: 287px;
+  height: 232px;
+}
+ 
+.geeks-thq-menu-item-row-elm17 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+ 
+.geeks-container3 {
+  position: relative;
+}
+ 
+.geeks-container4 {
+  display: none;
+}
+ 
+.geeks-container5 {
+  display: contents;
+}
+ 
+.geeks-container7 {
+  display: contents;
+}

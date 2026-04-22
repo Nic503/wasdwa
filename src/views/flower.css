@@ -1,0 +1,41 @@
+.flower-container1 {
+  width: 100%;
+  min-height: 100vh;
+}
+ 
+.flower-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+ 
+.flower-thq-header-lock-icon-elm {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+ 
+.flower-thq-images-row-elm {
+  gap: 36px;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.flower-thq-pasted-image-elm1 {
+  width: 234px;
+  height: 227px;
+}
+ 
+.flower-thq-pasted-image-elm2 {
+  width: 258px;
+  height: 245px;
+}
+ 
+.flower-container3 {
+  position: relative;
+}
