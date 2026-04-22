@@ -9,8 +9,8 @@ const FLOWER = (props) => {
   return (
     <div className="flower-container1">
       <Helmet>
-        <title>FLOWER - Pristine Impeccable Rook</title>
-        <meta property="og:title" content="FLOWER - Pristine Impeccable Rook" />
+        <title>FLOWER - cons menu</title>
+        <meta property="og:title" content="FLOWER - cons menu" />
         <link
           rel="canonical"
           href="https://pristine-impeccable-rook-jpkikh.teleporthq.app/flower"

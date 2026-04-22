@@ -10,8 +10,8 @@ const GEEKS = (props) => {
   return (
     <div className="geeks-container1">
       <Helmet>
-        <title>Pristine Impeccable Rook</title>
-        <meta property="og:title" content="Pristine Impeccable Rook" />
+        <title>cons menu</title>
+        <meta property="og:title" content="cons menu" />
         <link
           rel="canonical"
           href="https://pristine-impeccable-rook-jpkikh.teleporthq.app/"
@@ -142,6 +142,12 @@ const GEEKS = (props) => {
           <div className="menu-item-row">
             <div className="menu-item-info">
               <span className="section-content">Peach Lemonade</span>
+              <span className="page-status-in menu-stock-badge">In Stock</span>
+            </div>
+          </div>
+          <div className="menu-item-row">
+            <div className="menu-item-info">
+              <span className="section-content">Banana Ice</span>
               <span className="page-status-in menu-stock-badge">In Stock</span>
             </div>
           </div>

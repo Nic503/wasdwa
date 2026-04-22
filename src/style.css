@@ -760,7 +760,7 @@
   padding: 0 var(--spacing-xl);
   max-width: var(--content-max-width);
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
  
 .navigation-logo-link {

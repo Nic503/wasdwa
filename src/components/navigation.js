@@ -164,20 +164,12 @@ const Navigation = (props) => {
                 <span>@consdriver</span>
               </div>
               <div
-                data-dropdown-item="user-consgotboxes"
+                data-dropdown-item="user-conbannedx3"
                 className="dropdown-item"
               >
                 <span className="user-emoji">👤</span>
-                <span className="user-text">consgotboxes</span>
-                <span>@consgotboxes</span>
-              </div>
-              <div
-                data-dropdown-item="user-consbannedx3"
-                className="dropdown-item"
-              >
-                <span className="user-emoji">👤</span>
-                <span className="user-text">consbannedx3</span>
-                <span>@consbannedx3</span>
+                <span className="user-text">conbannedx3</span>
+                <span>@conbannedx3</span>
               </div>
               <div
                 data-dropdown-item="user-tizkhalifaaa"
@@ -186,6 +178,14 @@ const Navigation = (props) => {
                 <span className="user-emoji">👤</span>
                 <span className="user-text">tizkhalifaaa</span>
                 <span>@tizkhalifaaa</span>
+              </div>
+              <div
+                data-dropdown-item="user-congotboxes"
+                className="dropdown-item"
+              >
+                <span className="user-emoji">👤</span>
+                <span className="user-text">congotboxes (backup)</span>
+                <span>@congotboxes</span>
               </div>
             </div>
           </div>

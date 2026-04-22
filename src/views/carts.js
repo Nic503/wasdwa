@@ -9,8 +9,8 @@ const CARTS = (props) => {
   return (
     <div className="carts-container1">
       <Helmet>
-        <title>CARTS - Pristine Impeccable Rook</title>
-        <meta property="og:title" content="CARTS - Pristine Impeccable Rook" />
+        <title>CARTS - cons menu</title>
+        <meta property="og:title" content="CARTS - cons menu" />
         <link
           rel="canonical"
           href="https://pristine-impeccable-rook-jpkikh.teleporthq.app/carts"

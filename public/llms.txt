@@ -1,10 +1,10 @@
-# Cons Menu
+# cons menu
 
 > 
 
 ## Pages
 
-- [CARTS - Cons Menu](https://pristine-impeccable-rook-jpkikh.teleporthq.app/carts)
-- [Inventory - Cons Menu](https://pristine-impeccable-rook-jpkikh.teleporthq.app/inventory)
-- [Cons Menu](https://pristine-impeccable-rook-jpkikh.teleporthq.app)
-- [FLOWER - Cons Menu](https://pristine-impeccable-rook-jpkikh.teleporthq.app/flower)
+- [CARTS - cons menu](https://pristine-impeccable-rook-jpkikh.teleporthq.app/carts)
+- [Inventory - cons menu](https://pristine-impeccable-rook-jpkikh.teleporthq.app/inventory)
+- [cons menu](https://pristine-impeccable-rook-jpkikh.teleporthq.app)
+- [FLOWER - cons menu](https://pristine-impeccable-rook-jpkikh.teleporthq.app/flower)
