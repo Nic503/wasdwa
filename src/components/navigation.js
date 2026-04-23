@@ -66,6 +66,17 @@ const Navigation = (props) => {
                   <span>FLOWER</span>
                 </div>
               </Link>
+              <Link to="/bulk">
+                <div>
+                  <div
+                    onmouseout="this.style.background='transparent'"
+                    onmouseover="this.style.background='#222'"
+                    className="navigation-thq-container4-elm"
+                  >
+                    <span>BULK</span>
+                  </div>
+                </div>
+              </Link>
             </div>
           </div>
           <div className="navigation-thq-navigation-desktop-menu-elm navigation-desktop-menu">
@@ -198,8 +209,8 @@ const Navigation = (props) => {
           </div>
         </div>
       </div>
-      <div className="navigation-container5">
-        <div className="navigation-container6">
+      <div className="navigation-container6">
+        <div className="navigation-container7">
           <Script
             html={`<script>
         ;(function () {

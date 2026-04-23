@@ -34,7 +34,7 @@
   padding: 10px 16px;
   font-size: 14px;
   transition: background 0.2s;
-  font-family: """"""""""""""'Exo 2', system-ui, sans-serif"""""""""""""";
+  font-family: """""""""""""""'Exo 2', system-ui, sans-serif""""""""""""""";
   text-decoration: none;
 }
  
@@ -44,7 +44,7 @@
   padding: 10px 16px;
   font-size: 14px;
   transition: background 0.2s;
-  font-family: """"""""""""""'Exo 2', system-ui, sans-serif"""""""""""""";
+  font-family: """""""""""""""'Exo 2', system-ui, sans-serif""""""""""""""";
   text-decoration: none;
 }
  
@@ -54,7 +54,17 @@
   padding: 10px 16px;
   font-size: 14px;
   transition: background 0.2s;
-  font-family: """"""""""""""'Exo 2', system-ui, sans-serif"""""""""""""";
+  font-family: """""""""""""""'Exo 2', system-ui, sans-serif""""""""""""""";
+  text-decoration: none;
+}
+ 
+.navigation-thq-container4-elm {
+  color: #e7f7fb;
+  display: block;
+  padding: 10px 16px;
+  font-size: 14px;
+  transition: background 0.2s;
+  font-family: """""""""""""""'Exo 2', system-ui, sans-serif""""""""""""""";
   text-decoration: none;
 }
  
@@ -100,11 +110,11 @@
   border: 2px dashed rgba(120, 120, 120, 0.4);
 }
  
-.navigation-container5 {
+.navigation-container6 {
   display: none;
 }
  
-.navigation-container6 {
+.navigation-container7 {
   display: contents;
 }
  
@@ -124,7 +134,7 @@
   .navigation-thq-navigation-mobile-content-elm {
     padding-left: 35px;
   }
-  .navigation-container5 {
+  .navigation-container6 {
     display: none;
   }
 }
