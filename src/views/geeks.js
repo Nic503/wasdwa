@@ -24,8 +24,8 @@ const GEEKS = (props) => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1920 1080"
-        preserveAspectRatio="xMidYMid slice"
         aria-hidden="true"
+        preserveAspectRatio="xMidYMid slice"
         className="geeks-thq-decorative-bg-lines-elm"
       >
         <path
@@ -200,8 +200,10 @@ const GEEKS = (props) => {
             </div>
           </div>
           <div className="geeks-thq-menu-item-row-elm17 menu-item-row">
-            <span className="section-content">Strawberry Mango </span>
-            <span className="page-status-in menu-stock-badge">In Stock</span>
+            <div className="menu-item-info">
+              <span className="section-content">Strawberry Mango </span>
+              <span className="page-status-in menu-stock-badge">In Stock</span>
+            </div>
           </div>
           <div className="menu-item-row">
             <div className="menu-item-info">

@@ -26,9 +26,9 @@ const BULK = (props) => {
         className="bulk-thq-decorative-background-lines-elm"
       >
         <svg
+          xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 900"
           preserveAspectRatio="xMidYMid slice"
-          xmlns="http://www.w3.org/2000/svg"
           className="bulk-thq-curved-lines-svg-elm"
         >
           <path
@@ -90,7 +90,7 @@ const BULK = (props) => {
       <div className="bulk-thq-images-row-elm">
         <img
           alt="pastedImage"
-          src="/external/pastedimage-7p1-300h.png"
+          src="/external/pastedimage-xl9u-400h.png"
           className="bulk-thq-pasted-image-elm"
         />
       </div>

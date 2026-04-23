@@ -146,18 +146,18 @@ const FLOWER = (props) => {
             strokeLinecap="round"
           >
             <animate
-              attributeName="d"
-              values="M0,250 C240,150 480,350 720,200 S1200,300 1440,150;M0,250 C240,350 480,150 720,300 S1200,200 1440,350;M0,250 C240,150 480,350 720,200 S1200,300 1440,150"
               dur="15s"
+              values="M0,250 C240,150 480,350 720,200 S1200,300 1440,150;M0,250 C240,350 480,150 720,300 S1200,200 1440,350;M0,250 C240,150 480,350 720,200 S1200,300 1440,150"
               repeatCount="indefinite"
+              attributeName="d"
             ></animate>
           </path>
           <defs>
             <linearGradient
               id="gradient-accent1"
               x1="0%"
-              y1="0%"
               x2="100%"
+              y1="0%"
               y2="0%"
             >
               <stop offset="0%" className="flower-icon23"></stop>
@@ -179,18 +179,18 @@ const FLOWER = (props) => {
             strokeLinecap="round"
           >
             <animate
-              attributeName="d"
-              values="M1440,500 C1200,400 960,600 720,450 S240,550 0,400;M1440,500 C1200,600 960,400 720,550 S240,450 0,600;M1440,500 C1200,400 960,600 720,450 S240,550 0,400"
               dur="18s"
+              values="M1440,500 C1200,400 960,600 720,450 S240,550 0,400;M1440,500 C1200,600 960,400 720,550 S240,450 0,600;M1440,500 C1200,400 960,600 720,450 S240,550 0,400"
               repeatCount="indefinite"
+              attributeName="d"
             ></animate>
           </path>
           <defs>
             <linearGradient
               id="gradient-accent2"
               x1="0%"
-              y1="0%"
               x2="100%"
+              y1="0%"
               y2="0%"
             >
               <stop offset="0%" className="flower-icon30"></stop>
@@ -213,24 +213,24 @@ const FLOWER = (props) => {
             strokeDasharray="20,10,5,10"
           >
             <animate
-              attributeName="d"
-              values="M0,650 Q360,550 720,700 T1440,600;M0,650 Q360,750 720,600 T1440,700;M0,650 Q360,550 720,700 T1440,600"
               dur="12s"
+              values="M0,650 Q360,550 720,700 T1440,600;M0,650 Q360,750 720,600 T1440,700;M0,650 Q360,550 720,700 T1440,600"
               repeatCount="indefinite"
+              attributeName="d"
             ></animate>
             <animate
-              attributeName="stroke-dashoffset"
-              values="0;45;0"
               dur="6s"
+              values="0;45;0"
               repeatCount="indefinite"
+              attributeName="stroke-dashoffset"
             ></animate>
           </path>
           <defs>
             <linearGradient
               id="gradient-accent3"
               x1="0%"
-              y1="0%"
               x2="100%"
+              y1="0%"
               y2="0%"
             >
               <stop offset="0%" className="flower-icon38"></stop>
@@ -243,9 +243,9 @@ const FLOWER = (props) => {
       <h1>DISCLAIMER: (NONE OF THESE PRODUCTS ARE FOR SALE)</h1>
       <section className="header-hero">
         <svg
+          xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1200 400"
           preserveAspectRatio="xMidYMid slice"
-          xmlns="http://www.w3.org/2000/svg"
           className="thq-hero-curves-elm"
         >
           <path

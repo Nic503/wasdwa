@@ -73,11 +73,6 @@
   justify-content: center;
 }
  
-.bulk-thq-pasted-image-elm {
-  width: 257px;
-  height: 202px;
-}
- 
 .bulk-thq-thq-menu-price-elm1-elm1 {
   margin-left: auto;
   padding-left: var(--spacing-xl);
@@ -109,4 +104,11 @@
  
 .bulk-container5 {
   display: contents;
+}
+ 
+@media(max-width: 767px) {
+  .bulk-thq-pasted-image-elm {
+    width: 325px;
+    height: 340px;
+  }
 }
