@@ -1,6 +1,11 @@
-.geeks-container1 {
+.geeks-thq-decorative-bg-lines-elm {
+  top: 0;
+  left: 0;
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
+  z-index: 0;
+  position: fixed;
+  pointer-events: none;
 }
  
 .geeks-container2 {

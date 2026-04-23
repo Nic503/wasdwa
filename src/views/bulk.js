@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import Navigation from '../components/navigation'
@@ -9,8 +10,8 @@ const BULK = (props) => {
   return (
     <div className="bulk-container1">
       <Helmet>
-        <title>BULK - cons menu</title>
-        <meta property="og:title" content="BULK - cons menu" />
+        <title>BULK - Cons Menu</title>
+        <meta property="og:title" content="BULK - Cons Menu" />
         <link
           rel="canonical"
           href="https://pristine-impeccable-rook-jpkikh.teleporthq.app/bulk"
@@ -20,6 +21,60 @@ const BULK = (props) => {
           content="https://pristine-impeccable-rook-jpkikh.teleporthq.app/bulk"
         />
       </Helmet>
+      <div
+        aria-hidden="true"
+        className="bulk-thq-decorative-background-lines-elm"
+      >
+        <svg
+          viewBox="0 0 1440 900"
+          preserveAspectRatio="xMidYMid slice"
+          xmlns="http://www.w3.org/2000/svg"
+          className="bulk-thq-curved-lines-svg-elm"
+        >
+          <path
+            d="M-100,200 C200,100 400,300 600,200 S900,100 1200,250 S1600,150 1800,300"
+            fill="none"
+            stroke="rgba(255,255,255,0.08)"
+            strokeWidth="2"
+            className="bulk-thq-curved-line-elm1 curved-line"
+          ></path>
+          <path
+            d="M-100,350 C150,250 350,450 550,350 S850,250 1150,400 S1550,300 1850,450"
+            fill="none"
+            stroke="rgba(255,255,255,0.06)"
+            strokeWidth="1.5"
+            className="bulk-thq-curved-line-elm2 curved-line"
+          ></path>
+          <path
+            d="M-100,500 C250,400 450,600 650,500 S950,400 1250,550 S1650,450 1950,600"
+            fill="none"
+            stroke="rgba(255,255,255,0.05)"
+            strokeWidth="1"
+            className="bulk-thq-curved-line-elm3 curved-line"
+          ></path>
+          <path
+            d="M-100,650 C100,550 300,750 500,650 S800,550 1100,700 S1500,600 1800,750"
+            fill="none"
+            stroke="rgba(255,255,255,0.07)"
+            strokeWidth="2"
+            className="bulk-thq-curved-line-elm4 curved-line"
+          ></path>
+          <path
+            d="M-100,800 C200,700 400,900 600,800 S900,700 1200,850 S1600,750 1900,900"
+            fill="none"
+            stroke="rgba(255,255,255,0.04)"
+            strokeWidth="1"
+            className="bulk-thq-curved-line-elm5 curved-line"
+          ></path>
+          <path
+            d="M-100,100 C300,50 500,150 700,100 S1000,50 1300,150 S1700,100 2000,200"
+            fill="none"
+            stroke="rgba(255,255,255,0.06)"
+            strokeWidth="1.5"
+            className="bulk-thq-curved-line-elm6 curved-line"
+          ></path>
+        </svg>
+      </div>
       <Navigation></Navigation>
       <h1>DISCLAIMER: (NONE OF THESE PRODUCTS ARE FOR SALE)</h1>
       <section className="header-hero">
@@ -137,6 +192,40 @@ const BULK = (props) => {
           </div>
         </div>
       </section>
+      <div>
+        <div className="bulk-container5">
+          <Script
+            html={`<style>
+@keyframes floatLine1 {
+0%, 100% {
+  transform: translateX(0) translateY(0);
+}
+50% {
+  transform: translateX(20px) translateY(-10px);
+}
+}
+
+@keyframes floatLine2 {
+0%, 100% {
+  transform: translateX(0) translateY(0);
+}
+50% {
+  transform: translateX(-15px) translateY(8px);
+}
+}
+
+@keyframes floatLine3 {
+0%, 100% {
+  transform: translateX(0) translateY(0);
+}
+50% {
+  transform: translateX(10px) translateY(-5px);
+}
+}
+</style>`}
+          ></Script>
+        </div>
+      </div>
     </div>
   )
 }

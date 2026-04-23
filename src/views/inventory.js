@@ -8,8 +8,8 @@ const Inventory = (props) => {
   return (
     <div className="inventory-container">
       <Helmet>
-        <title>Inventory - cons menu</title>
-        <meta property="og:title" content="Inventory - cons menu" />
+        <title>Inventory - Cons Menu</title>
+        <meta property="og:title" content="Inventory - Cons Menu" />
         <link
           rel="canonical"
           href="https://pristine-impeccable-rook-jpkikh.teleporthq.app/inventory"

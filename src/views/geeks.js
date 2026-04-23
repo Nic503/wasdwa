@@ -8,10 +8,10 @@ import './geeks.css'
 
 const GEEKS = (props) => {
   return (
-    <div className="geeks-container1">
+    <div className="container1">
       <Helmet>
-        <title>cons menu</title>
-        <meta property="og:title" content="cons menu" />
+        <title>Cons Menu</title>
+        <meta property="og:title" content="Cons Menu" />
         <link
           rel="canonical"
           href="https://pristine-impeccable-rook-jpkikh.teleporthq.app/"
@@ -21,6 +21,106 @@ const GEEKS = (props) => {
           content="https://pristine-impeccable-rook-jpkikh.teleporthq.app/"
         />
       </Helmet>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1920 1080"
+        preserveAspectRatio="xMidYMid slice"
+        aria-hidden="true"
+        className="geeks-thq-decorative-bg-lines-elm"
+      >
+        <path
+          d="M0,200 Q480,100 960,200 T1920,200"
+          fill="none"
+          stroke="rgba(255,255,255,0.03)"
+          strokeWidth="1"
+        ></path>
+        <path
+          d="M0,400 Q480,300 960,400 T1920,400"
+          fill="none"
+          stroke="rgba(255,255,255,0.04)"
+          strokeWidth="1.5"
+        ></path>
+        <path
+          d="M0,600 Q480,500 960,600 T1920,600"
+          fill="none"
+          stroke="rgba(255,255,255,0.03)"
+          strokeWidth="1"
+        ></path>
+        <path
+          d="M0,800 Q480,700 960,800 T1920,800"
+          fill="none"
+          stroke="rgba(255,255,255,0.04)"
+          strokeWidth="1.5"
+        ></path>
+        <path
+          d="M200,0 Q300,270 200,540 T200,1080"
+          fill="none"
+          stroke="rgba(255,255,255,0.03)"
+          strokeWidth="1"
+        ></path>
+        <path
+          d="M600,0 Q700,270 600,540 T600,1080"
+          fill="none"
+          stroke="rgba(255,255,255,0.04)"
+          strokeWidth="1.5"
+        ></path>
+        <path
+          d="M1000,0 Q1100,270 1000,540 T1000,1080"
+          fill="none"
+          stroke="rgba(255,255,255,0.03)"
+          strokeWidth="1"
+        ></path>
+        <path
+          d="M1400,0 Q1500,270 1400,540 T1400,1080"
+          fill="none"
+          stroke="rgba(255,255,255,0.04)"
+          strokeWidth="1.5"
+        ></path>
+        <path
+          d="M1800,0 Q1900,270 1800,540 T1800,1080"
+          fill="none"
+          stroke="rgba(255,255,255,0.03)"
+          strokeWidth="1"
+        ></path>
+      </svg>
+      <div className="decorative-lines-overlay">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 900"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,120 Q360,80 720,140 T1440,100"
+            fill="none"
+            stroke="rgba(255,255,255,0.06)"
+            strokeWidth="1"
+          ></path>
+          <path
+            d="M0,280 Q300,340 600,260 T1200,300 T1440,260"
+            fill="none"
+            stroke="rgba(255,255,255,0.04)"
+            strokeWidth="1.5"
+          ></path>
+          <path
+            d="M0,450 Q240,400 480,480 T960,420 T1440,480"
+            fill="none"
+            stroke="rgba(255,255,255,0.05)"
+            strokeWidth="1"
+          ></path>
+          <path
+            d="M0,600 Q400,550 800,620 T1440,580"
+            fill="none"
+            stroke="rgba(255,255,255,0.04)"
+            strokeWidth="1"
+          ></path>
+          <path
+            d="M0,780 Q360,820 720,760 T1440,800"
+            fill="none"
+            stroke="rgba(255,255,255,0.03)"
+            strokeWidth="1.5"
+          ></path>
+        </svg>
+      </div>
       <Navigation></Navigation>
       <h1>DISCLAIMER: (NONE OF THESE PRODUCTS ARE FOR SALE)</h1>
       <section className="header-hero">

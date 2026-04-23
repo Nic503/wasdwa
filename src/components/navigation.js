@@ -171,7 +171,43 @@ const Navigation = (props) => {
             data-dropdown-container="snap-users"
             className="dropdown-container"
           >
+            <svg
+              viewBox="0 0 300 60"
+              preserveAspectRatio="none"
+              className="navigation-thq-decorative-curve-elm1 decorative-curve"
+            >
+              <path
+                d="M0,30 Q75,5 150,30 T300,30"
+                fill="none"
+                stroke="rgba(0,255,200,0.3)"
+                strokeWidth="2"
+              ></path>
+              <path
+                d="M0,40 Q75,15 150,40 T300,40"
+                fill="none"
+                stroke="rgba(0,217,255,0.2)"
+                strokeWidth="1.5"
+              ></path>
+            </svg>
             <h3>Snap Accounts</h3>
+            <svg
+              viewBox="0 0 300 60"
+              preserveAspectRatio="none"
+              className="navigation-thq-decorative-curve-elm2 decorative-curve"
+            >
+              <path
+                d="M0,20 Q75,45 150,20 T300,20"
+                fill="none"
+                stroke="rgba(0,255,200,0.3)"
+                strokeWidth="2"
+              ></path>
+              <path
+                d="M0,10 Q75,35 150,10 T300,10"
+                fill="none"
+                stroke="rgba(138,0,230,0.25)"
+                strokeWidth="1.5"
+              ></path>
+            </svg>
             <div>
               <div
                 data-dropdown-item="user-consdriver"

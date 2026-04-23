@@ -3,6 +3,53 @@
   min-height: 100vh;
 }
  
+.bulk-thq-decorative-background-lines-elm {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+  position: fixed;
+  pointer-events: none;
+}
+ 
+.bulk-thq-curved-lines-svg-elm {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  min-width: 1440px;
+}
+ 
+.bulk-thq-curved-line-elm1 {
+  animation: floatLine1 20s ease-in-out infinite;
+}
+ 
+.bulk-thq-curved-line-elm2 {
+  animation: floatLine2 25s ease-in-out infinite;
+}
+ 
+.bulk-thq-curved-line-elm3 {
+  animation: floatLine3 22s ease-in-out infinite;
+}
+ 
+.bulk-thq-curved-line-elm4 {
+  animation: floatLine1 18s ease-in-out infinite;
+  animation-delay: -5s;
+}
+ 
+.bulk-thq-curved-line-elm5 {
+  animation: floatLine2 24s ease-in-out infinite;
+  animation-delay: -8s;
+}
+ 
+.bulk-thq-curved-line-elm6 {
+  animation: floatLine3 26s ease-in-out infinite;
+  animation-delay: -3s;
+}
+ 
 .bulk-container2 {
   flex: 0 0 auto;
   width: auto;
@@ -58,4 +105,8 @@
  
 .bulk-container3 {
   position: relative;
+}
+ 
+.bulk-container5 {
+  display: contents;
 }

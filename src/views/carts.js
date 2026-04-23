@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import Navigation from '../components/navigation'
@@ -9,8 +10,8 @@ const CARTS = (props) => {
   return (
     <div className="carts-container1">
       <Helmet>
-        <title>CARTS - cons menu</title>
-        <meta property="og:title" content="CARTS - cons menu" />
+        <title>CARTS - Cons Menu</title>
+        <meta property="og:title" content="CARTS - Cons Menu" />
         <link
           rel="canonical"
           href="https://pristine-impeccable-rook-jpkikh.teleporthq.app/carts"
@@ -20,6 +21,69 @@ const CARTS = (props) => {
           content="https://pristine-impeccable-rook-jpkikh.teleporthq.app/carts"
         />
       </Helmet>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1920 1080"
+        preserveAspectRatio="xMidYMid slice"
+        className="carts-thq-bg-curves-elm"
+      >
+        <path
+          d="M-100,200 Q400,100 960,250 T2020,180"
+          fill="none"
+          stroke="white"
+          strokeWidth="1.5"
+          className="carts-thq-curve-line-elm1 curve-line"
+        ></path>
+        <path
+          d="M-50,400 Q500,300 1000,450 T1970,380"
+          fill="none"
+          stroke="white"
+          strokeWidth="1"
+          className="carts-thq-curve-line-elm2 curve-line"
+        ></path>
+        <path
+          d="M-80,600 Q450,500 920,650 T2000,580"
+          fill="none"
+          stroke="white"
+          strokeWidth="2"
+          className="carts-thq-curve-line-elm3 curve-line"
+        ></path>
+        <path
+          d="M-30,800 Q480,700 980,850 T1950,780"
+          fill="none"
+          stroke="white"
+          strokeWidth="1"
+          className="carts-thq-curve-line-elm4 curve-line"
+        ></path>
+        <path
+          d="M-120,1000 Q420,900 940,1050 T1980,980"
+          fill="none"
+          stroke="white"
+          strokeWidth="1.5"
+          className="carts-thq-curve-line-elm5 curve-line"
+        ></path>
+        <path
+          d="M1920,150 Q1400,50 960,200 T-100,130"
+          fill="none"
+          stroke="white"
+          strokeWidth="1"
+          className="carts-thq-curve-line-elm6 curve-line"
+        ></path>
+        <path
+          d="M1970,350 Q1450,250 1000,400 T-50,330"
+          fill="none"
+          stroke="white"
+          strokeWidth="1.5"
+          className="carts-thq-curve-line-elm7 curve-line"
+        ></path>
+        <path
+          d="M1940,550 Q1420,450 960,600 T-80,530"
+          fill="none"
+          stroke="white"
+          strokeWidth="1"
+          className="carts-thq-curve-line-elm8 curve-line"
+        ></path>
+      </svg>
       <Navigation></Navigation>
       <h1>DISCLAIMER: (NONE OF THESE PRODUCTS ARE FOR SALE)</h1>
       <section className="header-hero">
@@ -109,6 +173,28 @@ const CARTS = (props) => {
           </div>
         </div>
       </section>
+      <div>
+        <div className="carts-container5">
+          <Script
+            html={`<style>
+@keyframes float {
+0%, 100% {
+  transform: translateY(0) translateX(0);
+}
+25% {
+  transform: translateY(-15px) translateX(5px);
+}
+50% {
+  transform: translateY(-8px) translateX(-5px);
+}
+75% {
+  transform: translateY(-20px) translateX(3px);
+}
+}
+</style>`}
+          ></Script>
+        </div>
+      </div>
     </div>
   )
 }
