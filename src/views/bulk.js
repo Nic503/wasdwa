@@ -90,7 +90,7 @@ const BULK = (props) => {
       <div className="bulk-thq-images-row-elm">
         <img
           alt="pastedImage"
-          src="/external/pastedimage-xl9u-400h.png"
+          src="/external/pastedimage-ea97-400w.png"
           className="bulk-thq-pasted-image-elm"
         />
       </div>
