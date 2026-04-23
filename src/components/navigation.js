@@ -91,6 +91,13 @@ const Navigation = (props) => {
                   </div>
                 </Link>
               </div>
+              <div className="navigation-actions">
+                <Link to="/bulk">
+                  <div className="btn-primary btn btn-sm">
+                    <span>BULK</span>
+                  </div>
+                </Link>
+              </div>
             </div>
             <Link
               to="/flower"
@@ -98,7 +105,7 @@ const Navigation = (props) => {
             >
               <span> FLOWER</span>
             </Link>
-            <div className="navigation-thq-navigation-actions-elm3 navigation-actions"></div>
+            <div className="navigation-thq-navigation-actions-elm4 navigation-actions"></div>
             <div
               id="dropdown-menu"
               data-thq="thq-dropdown"

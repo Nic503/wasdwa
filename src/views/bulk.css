@@ -1,0 +1,61 @@
+.bulk-container1 {
+  width: 100%;
+  min-height: 100vh;
+}
+ 
+.bulk-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+ 
+.bulk-thq-header-lock-icon-elm {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+ 
+.bulk-thq-images-row-elm {
+  gap: 36px;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.bulk-thq-pasted-image-elm {
+  width: 257px;
+  height: 202px;
+}
+ 
+.bulk-thq-thq-menu-price-elm1-elm1 {
+  margin-left: auto;
+  padding-left: var(--spacing-xl);
+}
+ 
+.bulk-thq-thq-menu-price-elm1-elm2 {
+  margin-left: auto;
+  padding-left: var(--spacing-xl);
+}
+ 
+.bulk-thq-thq-menu-price-elm1-elm3 {
+  margin-left: auto;
+  padding-left: var(--spacing-xl);
+}
+ 
+.bulk-thq-thq-menu-price-elm1-elm4 {
+  margin-left: auto;
+  padding-left: var(--spacing-xl);
+}
+ 
+.bulk-thq-thq-menu-price-elm1-elm5 {
+  margin-left: auto;
+  padding-left: var(--spacing-xl);
+}
+ 
+.bulk-container3 {
+  position: relative;
+}

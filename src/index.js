@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
+import BULK from './views/bulk'
 import CARTS from './views/carts'
 import Inventory from './views/inventory'
 import GEEKS from './views/geeks'
@@ -18,6 +19,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
+        <Route component={BULK} exact path="/bulk" />
         <Route component={CARTS} exact path="/carts" />
         <Route component={Inventory} exact path="/inventory" />
         <Route component={GEEKS} exact path="/" />

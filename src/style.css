@@ -1995,6 +1995,7 @@
   gap: var(--spacing-md);
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
  
 .menu-item-price {
@@ -2888,6 +2889,11 @@
   opacity: 1;
   transform: translateY(0);
   visibility: visible;
+}
+ 
+.menu-item-info  > span:first-child {
+  order: 3;
+  margin-left: auto;
 }
  
 .Headings {

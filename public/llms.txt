@@ -4,6 +4,7 @@
 
 ## Pages
 
+- [BULK - cons menu](https://pristine-impeccable-rook-jpkikh.teleporthq.app/bulk)
 - [CARTS - cons menu](https://pristine-impeccable-rook-jpkikh.teleporthq.app/carts)
 - [Inventory - cons menu](https://pristine-impeccable-rook-jpkikh.teleporthq.app/inventory)
 - [cons menu](https://pristine-impeccable-rook-jpkikh.teleporthq.app)
