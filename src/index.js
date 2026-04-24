@@ -6,6 +6,7 @@ import {
   Switch,
   Redirect,
 } from 'react-router-dom'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 
 import './style.css'
 import BULK from './views/bulk'
@@ -27,6 +28,7 @@ const App = () => {
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
+      <SpeedInsights />
     </Router>
   )
 }
