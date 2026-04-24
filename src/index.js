@@ -6,6 +6,7 @@ import {
   Switch,
   Redirect,
 } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 
 import './style.css'
 import BULK from './views/bulk'
@@ -27,6 +28,7 @@ const App = () => {
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
+      <Analytics />
     </Router>
   )
 }
